@@ -6,12 +6,42 @@
     <title>Display</title>
     <style>
         /* ... */
+        body{
+            font-size: 40px;
+            color: yellowgreen;
+            background-color: blueviolet;
+        }
+        ul{
+            padding: 0;
+        }
+        div{
+            background-color: green;
+        }
+        span{
+            background-color: dodgerblue;
+        }
+        .span1{
+            background-color: brown;
+        }
+        li{
+            background-color: blue
+        }
+        div, span, li {
+            width: 50%;
+            width: 200px;
+            height: 80px;
+            padding-top: 30px;
+            padding-left: 30px;
+            text-align: center;
+            /*display: block;  nesse caso deixa o elemento em cada linha*/
+            display: inline-block;
+        }
     </style>
 </head>
 
 <body>
     <div>Texto 1</div>
-    <span>Texto 2</span>
+    <span class="span1">Texto 2</span>
     <span>Texto 3</span>
     <ul>
         <li>Item 1</li>
